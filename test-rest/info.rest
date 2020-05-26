@@ -1,0 +1,35 @@
+
+### Show API
+
+GET http://localhost:8080/api HTTP/1.1
+
+### Test File Upload
+
+POST http://localhost:8080/test/upload HTTP/1.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="name"
+
+something.config.json
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="config.json"
+Content-Type: application/json
+
+< ./config.json
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Test Encoding with Controller
+
+POST http://localhost:8080/test/one HTTP/1.1
+content-type: application/json
+
+{
+    "id": 3,
+    "reqPlace": "outer",
+    "reqType": "fix",
+    "publicateDate": "2020-06-10T00:00:00+00:00",
+    "isExpire": true,
+    "expireDate": "2025-08-18T00:00:00+00:00",
+    "title": "Árvíztűrő Ütvefúrógép"
+}

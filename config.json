@@ -1,0 +1,17 @@
+{
+    "db": {
+        "host": "localhost",
+        "port": 3306,
+        "database": "sakila",
+        "user": "user",
+        "password": "***",
+        "native": true,
+        "pool": { 
+            "maxConnections": 50, 
+            "maxIdleTime": 30
+        }
+    },
+    "apiUrl": "http://localhost:8080/api",
+    "uploadUrl": "http://localhost:8080/test/upload",
+    "sampleDataPath": "out/data.json"
+}
