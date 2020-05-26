@@ -9,7 +9,7 @@ const utHttp = require('./lib/ut_http');
 const cliArguments = [
     { name: 'command', defaultOption: true, defaultValue: 'sayHi' },
     { name: 'verbose', alias: 'v', type: Boolean },
-    { name: 'gsId', alias: 'd', defaultValue: '1SGbLqGcR_Ew6tvE0LZQNCeRfvHDUfKgxb9KuJTXIxNs' }
+    { name: 'gsId', alias: 'd', defaultValue: '1OsTqExpSvKWqfmN9gSdYCAaJB-cyTOS4b_cJ-vIvMAY' }
     
 ];
 
