@@ -11,7 +11,7 @@
   "dependencies": {
     "command-line-args": "^5.1.1",
     "google-spreadsheet-to-json": "^1.0.0",
-    "got": "^11.0.2",
+    "got": "^11.8.5",
     "mysql": "^2.18.1",
     "pluralize": "^8.0.0"
   }
